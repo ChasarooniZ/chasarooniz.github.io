@@ -1,5 +1,10 @@
 const modules = [
-    { name: 'Module 1', description: 'Description of Module 1', image: 'module1.jpg', link: '#' },
+    { name: 'Pf2e RPG Numbers', description: 'A module that started to just show damage numbers when you attack but now does other cool things too', image: 'module1.jpg', link: 'https://github.com/ChasarooniZ/pf2e-rpg-numbers' },
+    { name: 'PF2e Item Activations', description: 'Adds actions based on items activations to your character.', image: 'module2.jpg', link: 'https://github.com/ChasarooniZ/pf2e-item-activations' },
+    { name: 'REDY: Reactive Dynamic Token Rings', description: 'Adds some reaction for dynamic token rings', image: 'module2.jpg', link: 'https://github.com/ChasarooniZ/PF2e-Reactive-Token-Ring' },
+    { name: 'PF2e: Rules Lawyer', description: 'A module that shows the Rules Lawyer Every +1 matters for Modifiers matter, when they do be', image: 'module2.jpg', link: 'https://github.com/ChasarooniZ/Pf2e-Rules-Lawyer' },
+    { name: 'PF2e Usage Updater', description: 'This simple module exists to update item uses of the party for items that can only by used every X', image: 'module2.jpg', link: 'https://github.com/ChasarooniZ/pf2e-usage-updater' },
+    { name: 'SETT: Some Extra Token (ring) Types', description: 'Adds options for dynamic token rings', image: 'module2.jpg', link: 'https://github.com/ChasarooniZ/More-Dynamic-Token-Rings' },
     { name: 'Module 2', description: 'Description of Module 2', image: 'module2.jpg', link: '#' },
     // Add more modules as needed
 ];

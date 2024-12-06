@@ -57,7 +57,7 @@
             right: 30px;
             border: medium solid white;
             border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent white;
+            border-color: transparent transparent transparent #3b3b3b;
         }
         .right::before {
             content: " ";
@@ -69,14 +69,14 @@
             left: 30px;
             border: medium solid white;
             border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
+            border-color: transparent #3b3b3b transparent transparent;
         }
         .right::after {
             left: -16px;
         } 
         .content {
             padding: 20px 30px;
-            background-color: white;
+            background-color: #3b3b3b;
             position: relative;
             border-radius: 6px;
         }    

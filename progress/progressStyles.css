@@ -11,12 +11,13 @@
             position: relative;
             max-width: 1200px;
             margin: 0 auto;
+            color: #803519;
         }
         .timeline::after {
             content: '';
             position: absolute;
             width: 6px;
-            background-color: white;
+            background-color: #3b3b3b;
             top: 0;
             bottom: 0;
             left: 50%;

@@ -1,60 +1,116 @@
 body {
-    font-family: 'Courier New', monospace;
-    background-color: #1a1a1a;
-    color: #e0e0e0;
+  font-family: "Courier New", monospace;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(26, 26, 26, 0.8),
+      rgba(26, 26, 26, 0.9),
+      rgba(26, 26, 26, 0.99)
+    ),
+    url("./cat.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer {
+    background-color: rgba(26, 26, 26, 1)
 }
 
 header {
-    background-color: #2a2a2a;
+  background-color: #2a2a2a;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 nav a {
-    color: #ff6b35;
-    text-decoration: none;
-    font-size: 1.2em;
+  color: #ff6b35;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a {
+  color: #ff6b35; /* Matches the orange of the header text */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Makes it stand out */
+}
+
+a:hover {
+  text-decoration: underline; /* Adds underline on hover for emphasis */
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .module-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
 }
 
 .module {
-    background-color: #2a2a2a;
-    border-radius: 10px;
-    padding: 20px;
+  background-color: #2a2a2a;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-.module img {
-    max-width: 100%;
-    border-radius: 5px;
+.module-image {
+  flex: 0 0 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.module h2 a {
-    color: #ff6b35;
-    text-decoration: none;
+.module-image i {
+  font-size: 3em;
+  color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.module-content {
+  flex: 1;
+  padding: 15px;
+}
+
+.module-content h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.module-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.module-content a:hover {
+  text-decoration: underline;
+}
+
+.module-content p {
+  margin: 0;
 }
 
 #moduleSearch {
-    width: 100%;
-    padding: 10px;
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    background-color: #2a2a2a;
-    color: #e0e0e0;
-    border: 1px solid #ff6b35;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #ff6b35;
+  border-radius: 5px;
 }

@@ -23,16 +23,6 @@
             left: 50%;
             margin-left: -3px;
         }
-       /* Timeline Link Styling */
-       .timeline a {
-           color: #ff6b35; /* Matches the orange of the header text */
-           text-decoration: none; /* Removes underline */
-           font-weight: bold; /* Makes it stand out */
-       }
-       
-       .timeline a:hover {
-           text-decoration: underline; /* Adds underline on hover for emphasis */
-       }
         .container {
             padding: 10px 40px;
             position: relative;

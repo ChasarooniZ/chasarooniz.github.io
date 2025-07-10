@@ -23,6 +23,42 @@ const modules = [
         image: 'fa-solid fa-masks-theater',
         link: 'https://github.com/ChasarooniZ/ready-for-the-stage'
     },
+    {
+        name: 'Genga',
+        description: 'System Agnostic Anime Animations',
+        image: 'fa-solid fa-otter',
+        link: 'https://foundryvtt.com/packages/genga'
+    },
+    {
+        name: 'PF2e Hero Action Deck (Unofficial)',
+        description: 'Unofficial Implementation of Pf2e Hero Action Cards as a Deck for fvtt',
+        image: 'fa-solid fa-money-check',
+        link: 'https://foundryvtt.com/packages/pf2e-hero-deck-unofficial'
+    },
+    {
+        name: 'Fist of the Ruby Phoenix: Addons',
+        description: 'Small addons of actors, animations, maps and tips for Fists of the Ruby Phoenix',
+        image: 'fa-solid fa-feather',
+        link: 'https://foundryvtt.com/packages/fist-of-the-ruby-phoenix-addons'
+    },
+    {
+        name: 'O is for Objection!',
+        description: 'Create a Phoenix Wright style objection',
+        image: 'fa-solid fa-gavel',
+        link: 'https://foundryvtt.com/packages/objection'
+    },
+    {
+        name: 'RHYM: Reliably Harness Your Music',
+        description: 'Music Management Module',
+        image: 'fa-solid fa-music',
+        link: 'https://foundryvtt.com/packages/rhym'
+    },
+    {
+        name: 'Depruner: Automatically Remove Chat Messages',
+        description: 'Automatically deletes the oldest Chat Message after you exceed your limit. Should help performance drastically.',
+        image: 'fa-solid fa-trash-arrow-up',
+        link: 'https://foundryvtt.com/packages/depruner-chat-message-remover'
+    },
     // {
     //     name: 'Module 2',
     //     description: 'Description of Module 2',

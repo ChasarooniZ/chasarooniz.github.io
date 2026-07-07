@@ -6,7 +6,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "Chasarooni Wiki",
+      title: "Chasarooniki",
       social: [
         {
           icon: "github",
@@ -23,60 +23,115 @@ export default defineConfig({
         {
           label: "Modules",
           items: [
-            // Each item here is one entry in the navigation menu.
             {
-              label: "Genga - System Agnostic Animations",
-              slug: "modules/genga",
+              label: "Adventure Path Helpers",
+              items: [
+                {
+                  label: "Abomination Vaults",
+                  items: [
+                    {
+                      label: "AV: Addons",
+                      slug: "modules/abomination-vaults-addons",
+                    },
+                    {
+                      label: "AV: Expanded",
+                      slug: "modules/pf2e-abomination-vaults-expanded",
+                    },
+                  ],
+                },
+                {
+                  label: "Fists of the Ruby Phoenix",
+                  items: [
+                    {
+                      label: "FotRP: Addons",
+                      slug: "modules/fist-of-the-ruby-phoenix-addons",
+                    },
+                  ],
+                },
+              ],
             },
             {
-              label: "PF2e RPG Numbers & More",
-              slug: "modules/pf2e-rpg-numbers",
+              label: "Utility",
+              items: [
+                {
+                  label: "Sundry",
+                  slug: "modules/sundry",
+                },
+                {
+                  label: "PF2e Item Activations",
+                  slug: "modules/pf2e-item-activations",
+                },
+                {
+                  label: "PF2e Summons Assistant",
+                  slug: "modules/pf2e-summons-assistant",
+                },
+                {
+                  label: "PF2e Usage Updater",
+                  slug: "modules/pf2e-usage-updater",
+                },
+                {
+                  label: "RHYM",
+                  slug: "modules/rhym",
+                },
+                {
+                  label: "Pyxie",
+                  slug: "modules/pyxie",
+                },
+                {
+                  label: "Ready For the Stage",
+                  slug: "modules/ready-for-the-stage",
+                },
+              ],
             },
             {
-              label: "ANIM - System Agnostic Animations",
-              slug: "modules/anim",
+              label: "Visual FX",
+              items: [
+                {
+                  label: "ANIM",
+                  slug: "modules/anim",
+                },
+                {
+                  label: "Genga",
+                  slug: "modules/genga",
+                },
+                {
+                  label: "O is for Objection",
+                  slug: "modules/o-is-for-objection",
+                },
+                {
+                  label: "PF2e RPG Numbers & More",
+                  slug: "modules/pf2e-rpg-numbers",
+                },
+                {
+                  label: "PF2e Rules Lawyer",
+                  slug: "modules/pf2e-rules-lawyer",
+                },
+                {
+                  label: "REDY",
+                  slug: "modules/redy",
+                },
+                {
+                  label: "SETT",
+                  slug: "modules/sett",
+                },
+                {
+                  label: "Trigger Animation Trove",
+                  slug: "modules/pf2e-trigger-animation-trove",
+                },
+              ],
             },
             {
-              label: "PF2e Item Activations",
-              slug: "modules/pf2e-item-activations",
-            },
-            { label: "PF2e Usage Updater", slug: "modules/pf2e-usage-updater" },
-            {
-              label: "RHYM - Reliably Harness Your Music",
-              slug: "modules/rhym",
-            },
-            {
-              label: "PF2e Summons Assistant",
-              slug: "modules/pf2e-summons-assistant",
-            },
-            {
-              label: "REDY - Reactive Dynamic Token Rings",
-              slug: "modules/redy",
-            },
-            { label: "SETT - Some Extra Token Types", slug: "modules/sett" },
-            { label: "Pyxie - PF2e Data Entry Helper", slug: "modules/pyxie" },
-            { label: "PF2e Rules Lawyer", slug: "modules/pf2e-rules-lawyer" },
-            {
-              label: "Fist of the Ruby Phoenix: Addons",
-              slug: "modules/fist-of-the-ruby-phoenix-addons",
-            },
-            {
-              label: "Abomination Vaults: Addons (PF2e)",
-              slug: "modules/abomination-vaults-addons",
-            },
-            {
-              label: "PF2e Abomination Vaults: Expanded",
-              slug: "modules/pf2e-abomination-vaults-expanded",
-            },
-            { label: "Dicearooni, Roll With It", slug: "modules/dicearooni" },
-            { label: "O is for Objection", slug: "modules/o-is-for-objection" },
-            {
-              label: "Sundry - Small Tidbits for PF2e",
-              slug: "modules/sundry",
-            },
-            {
-              label: "Ready For the Stage - Theatre Inserts Extension",
-              slug: "modules/ready-for-the-stage",
+              label: "Retired",
+              items: [
+                {
+                  label: "Depruner",
+                  slug: "modules/depruner",
+                },
+                {
+                  label: "Dicearooni, Roll With It",
+                  slug: "modules/dicearooni",
+                },
+              ],
             },
           ],
         },

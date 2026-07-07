@@ -1,5 +1,5 @@
 ---
-title: Pyxie - PF2e Data Entry Helper
+title: Depruner
 description: Get started building your docs site with Starlight.
 hero:
   tagline: Congrats on setting up a new Starlight project!
